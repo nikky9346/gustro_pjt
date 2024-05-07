@@ -1,0 +1,244 @@
+body{
+  margin:0 auto;
+  padding:0 auto;
+}
+
+.header{
+  float:left;
+  width:100%;
+  text-align:center;
+  background-color:black;
+  color:white;
+}
+
+.menu li{
+  display:inline;
+  text-transform:uppercase;
+  padding:0em 3em 0em 3em;
+  font-family: "Open Sans", sans-serif;
+  font-size:14px;font-weight:400;
+  position: relative;
+}
+  
+  /** header ends **/
+  
+  
+  .herosection{
+    float:left;
+    width:100%;
+/*background-image:url('../images/intro-bg.jpg');*/
+    background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 59%, rgba(0, 0, 0, 0.4) 100%),
+    url('../images/intro-bg.jpg') no-repeat;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    color:white;
+    text-align:center;padding:3em 0em 3em 0em;
+  }
+  
+  .herosection h2{ 
+    font-family: "Rochester", cursive;
+    font-size:140px;font-weight:400;
+    text-transform:capitalize;
+  }
+  
+  .herosection p{
+  font-family: "Open Sans", sans-serif;
+  font-size:24px;
+  font-weight:400;
+  text-transform:capitalize;
+}
+  
+  .specials_section{
+    float:left;
+    width:100%;
+  }
+  
+  .specials_section h3{ 
+    font-family: "Raleway", sans-serif;
+    font-size:38px;
+    font-weight:400;
+    text-align:center;
+    text-transform:uppercase;
+  }
+  
+  .special1{
+    float:left;
+    width:33.3%;
+    text-align:center;
+  }
+    .special2{
+      float:left;
+      width:33.3%;
+      text-align:center;
+  }
+    .special3{
+      float:right;
+      width:33.3%;
+      text-align:center;
+  }
+  
+  .special1 h4, .special2 h4, .special3 h4{
+    font-family: "Raleway", sans-serif;
+    font-size:24px;
+    font-weight:400;
+  }
+  
+  .pic{
+    width:75%;
+  }
+  
+  .special1 p,.special2 p,.special3 p{
+    font-family: "Open Sans", sans-serif;
+    font-size:15px;
+    font-weight:400;
+    color:gray;
+    padding:0em 3em 0em 3em;
+  }
+  
+  
+  .story_section{
+    float:left;
+    width:100%;
+  }
+  
+  .story_section_left{
+    float:left;
+    width:50%;
+  }
+  
+  .story_section_left img{
+    width:100%;
+  }
+  
+  .story_section_right{
+    float:right;
+    width:40%;
+    padding:2em 3em 2em 3em;
+  }
+  
+  .story_section_right h3{
+    font-family: "Raleway", sans-serif;
+    font-size:24px;
+    font-weight:400;
+  }
+  
+  .story_section_right p{
+    font-family: "Open Sans", sans-serif;
+    font-size:15px;
+    font-weight:400;
+    color:gray;
+    padding:0em 3em 0em 0em;
+  }
+  
+  .form_section{
+    float:left;
+    padding:3em 0em;
+    width:100%;
+    background:black;
+    color:white;}
+  
+    label{
+      font-family: "Open Sans", sans-serif;
+      font-size:15px;
+      font-weight:400;
+    }
+  
+    .form_left{
+      float:left;
+      width:40%;
+      padding:0em 0em 0em 4em;
+    }
+  
+    .form_right{
+      float:right;
+      width:50%;
+    }
+
+#fname,#lname{
+  margin:1em 0em 1em 0em;
+  font-family: "Open Sans", sans-serif;
+  font-size:15px;
+  font-weight:400;
+	background:gray;width:100%;
+  padding:10px;
+  border:1px solid gray;
+}
+	
+	.submit{
+    background:white;
+    color:black;
+    width:50%;
+	  padding:10px;
+    border-radius:5px;
+}
+
+.footer{
+  float:left;
+  width:100%;
+  background:black;
+  color:white;
+}
+
+.footer_left{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+
+.footer_left p{
+  font-family: "Open Sans", sans-serif;
+  font-size:15px;
+  font-weight:400;
+  color:gray;
+}
+
+.footer_right{
+  float:right;
+  width:50%;
+  text-align:center;
+}
+
+.social li{
+  display:inline;
+  padding:1em 1em 1em 1em;
+  border-radius:50%;
+  border:1px solid white;
+}
+
+.accordionvp {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordionvp:hover {
+  background-color: #ccc;
+}
+
+.accordionvp:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panelvp {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
